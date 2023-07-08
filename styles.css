@@ -1,16 +1,10 @@
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
+body {font-family: 'Open Sans', sans-serif;}
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
+    justify-content: space-between;}
 
-.text-primary {
-    color: #FD6E0A;
-}
+.text-primary {color: #FD6E0A;}
 
 .btn-primary {
     border-radius: 5px;
@@ -19,29 +13,30 @@ nav {
     font-weight: 700;
     padding: 15px 35px;
     font-size: 20px;
-    border: 0;
-
-
-}
-
+    border: 0;}
 .nav-title {
     color: #181818;
     font-size: 45px;
-    font-weight: 800;
-}
-
+    font-weight: 800;}
 nav>ul {
     display: flex;
-    align-items: center;
-    
-}
-
+    align-items: center;}
 nav li {
     list-style: none;
-    margin-right: 50px;
-}
-
+    margin-right: 50px;}
 nav a {
     text-decoration: none;
-    color: #474747;
+    color: #474747;}
+
+    /* header section */
+
+.header{background:#FFF8F3;}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic{
+    width: 500px;
 }
